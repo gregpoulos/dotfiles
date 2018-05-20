@@ -13,6 +13,21 @@ alias d="cd ~/Dropbox"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias p="cd ~/projects"
+alias subl="~/dotfiles/bin/subl"
+
+# Git shortcuts
+alias gst='git status'
+alias gco='git checkout'
+alias gci='git commit'
+alias gbr='git branch'
+alias gpl='git pull'
+
+# Miscellaneous
+alias reload='source ~/.bash_profile'
+alias c="clear"
+alias cl="c; l"
+alias cla="c; la"
+alias h="habitica"
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
